@@ -1,10 +1,10 @@
 ---
 applications:
-- name: cities-ui
+- name: xyz-cities-ui
   memory: 900M
   instances: 1
   path: build/libs/cities-ui.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
-  services: [ cities-ws ]
+  services: [ xyz-cities-ws ]
   env:
     SPRING_PROFILES_ACTIVE: cloud
