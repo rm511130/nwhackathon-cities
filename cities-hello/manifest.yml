@@ -1,9 +1,9 @@
 ---
 applications:
-- name: cities-hello
+- name: xyz-cities-hello
   memory: 900M
   instances: 1
-  host: cities-hello
+  host: xyz-cities-hello
   path: build/libs/cities-hello.jar
   env:
     SPRING_PROFILES_DEFAULT: cloud
